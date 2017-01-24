@@ -52,17 +52,24 @@ Extract the ps2avrGB_firmware zip file.
 
 
 ## Mapping Keys
+
+For a visual guide, see https://imgur.com/a/Jbdh4
+
 1. Start the BootMapper Client
 1. Connect the board
+2. Uncheck "apply to all layers"
 1. Click the “Key Mapper” tab
 1. Click "Download", which will copy the existing keymap from the board to the Boot Mapper Client
+2. Click "Toggle Bootmapper". Ensure the checkmark is ticked!
 1. For each key that you wish to change:
-  2. Click "Toggle Bootmapper"
-  1. On the keyboard diagram at the bottom of the Boot Mapper Client, click the key to change
-  2. Click the key that has the action you wish the first key to have
-  3. Click "Toggle Bootmapper"
-1. Repeat for all keys and all layers
+  1. On your physical keyboard, press the key to change
+  2. Click the highlighted cell in the chart
+  2. On the keyboard diagram, click the key that has the action you wish the physical key to have
+1. Repeat for all keys on the main layer
+2. Switch to the next layer, and repeat
+3. Click "Toggle Bootmapper"
 2. Click "Save keymap_part.hex" to save your keymap file to disk
+3. Check the box marked "reboot after uploading"
 3. Click Upload to transfer the new keymap to your keyboard
 
 
