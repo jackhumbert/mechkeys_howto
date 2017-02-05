@@ -78,7 +78,7 @@ For a visual guide, see https://imgur.com/a/Jbdh4
 1. Connect the board
 2. Click the "Options" tab
 1. Click "Connect"
-  1. Note: the LEDs will not turn on until after you click "Disconnect"
+  1. Note: the LEDs will not change until you click "Connect"
 1. Modify LED settings
 
 | Setting | Effect |
@@ -86,6 +86,11 @@ For a visual guide, see https://imgur.com/a/Jbdh4
 | Num of RGB LEDs | The number of RGB LEDs on the PCB |
 | RGB LED mode selection and color setting | Choose between "off", "Rainbow", or a solid color. | 
 |                                          | Explicit Rainbow colors may be defined using hexadecimal codes |
+| - Type: Fading | Slow fade between colors |
+| - Type: Immediate | Immediate transition between colors |
+| - Type: Sequential | Timed transition between colors as defined in the 'Rainbow' list |
+| - Type: Static | Persistent colors as defined in the 'Rainbow' list |
+| - Type: Flow | Individual LEDs transition between colors as defined in the 'Rainbow' list |
 | RGB LED Brightness | Controls RGB LED. Note that the brighter the RGB LED, the dimmer the switch LEDs will be |
 | RGB LED key event selection and color setting | |
 | Full LED Mode | |
