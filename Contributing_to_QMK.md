@@ -32,7 +32,7 @@ Create a new branch named after the feature you want to add. I like using my use
 ```
     git checkout -b unxmaal-spacecadet
 ```
-Now make your changes. If you're paying penance for past sins, carefully copy the few files in here. Note that if the logic changed in these files, you could blow stuff up. Check the new ones first to be sure. (Normally git handles the merge for you, but in this case it won't.)
+Now make your changes. Typically, that could include copying the default keymap directory to a new directory, and naming it your username, or some feature.
 
 Add and commit your changes.
 ```
