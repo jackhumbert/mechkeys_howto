@@ -91,8 +91,9 @@ For a visual guide, see https://imgur.com/a/Jbdh4
 | - Type: Sequential | Timed transition between colors as defined in the 'Rainbow' list |
 | - Type: Static | Persistent colors as defined in the 'Rainbow' list |
 | - Type: Flow | Individual LEDs transition between colors as defined in the 'Rainbow' list |
+| Colors 1,2,3 | User-defined static colors |
 | RGB LED Brightness | Controls RGB LED. Note that the brighter the RGB LED, the dimmer the switch LEDs will be |
-| RGB LED key event selection and color setting | |
+| RGB LED key event selection and color setting | The LEDs will change to this color when a key is pressed |
 | Full LED Mode | |
 | Lock LED Settings | Specify lighting for "Num Lock", "Caps Lock", and "Scroll Lock" |
 
