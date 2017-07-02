@@ -14,7 +14,7 @@ Start git bash
 
 At its command prompt, type
 ```
-	vagrant init ubuntu/trusty64
+	vagrant init bento/ubuntu-16.04
 	mkdir firmwares
 ```
 Get your current working directory
