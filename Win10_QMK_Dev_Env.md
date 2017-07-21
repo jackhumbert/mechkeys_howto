@@ -1,6 +1,6 @@
 # Setting up a dev environment for QMK on a Windows 10 PC
 
-FIRST: Read through https://github.com/qmk/qmk_firmware/wiki/Build-Environment-Setup for an idea of what's going on.
+FIRST: Read through https://docs.qmk.fm/build_environment_setup.html for an idea of what's going on.
 
 Get the following
 
@@ -100,5 +100,5 @@ Now, in Windows Explorer, look in that same directory you looked in at the begin
 
 You should see a folder called firmwares. Inside is your hex files!
 
-Now you can use the QMK Firmware Flasher ( https://github.com/qmk/qmk_firmware_flasher ) to flash your board. 
+Now you can use the QMK Firmware Flasher ( https://github.com/qmk/qmk_flasher ) to flash your board. 
 
